@@ -123,6 +123,7 @@ height: 200px;
     height: 100%;
     justify-content: center;
     text-align: center;
+    margin-top: 10px;
 
     
 
@@ -205,19 +206,15 @@ transition: 1s;
 
 }
 
+
+
 .flex-item p{
-    background-color: white;
-    border-style:ridge;
+    background-color: orange;
+    border-style:double;
     border-radius: 10px;
     margin-top: 10px;
-    transition: 1s;
-
-}
-.flex-item p:hover{
-    background-color: orange;
-    border-style:double
+    margin-bottom:2px;
     
-
 }
 .flex-item img:hover{
     border:solid 10px orange;
@@ -235,7 +232,15 @@ transition: 1s;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     
-    
+}
+.flex-item div{
+    border-radius: 10px;
+    border-style:groove;
+}
+.flex-item input:hover{
+    background-color: orange;
+    transition: 1s;
+    border-radius: 5px;
 }
 .alimentos{
     background-color: orange;
@@ -256,12 +261,12 @@ transition: 1s;
     height: 40px;
     margin-top: 15px;
     margin-bottom: 10px;
-
     display: inline-block;
     border-radius: 10px;
 
 
 }
+
 
   
 
